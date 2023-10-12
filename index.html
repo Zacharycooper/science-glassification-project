@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Science Classification</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    
+    </head>
+    <body style="background-color: white;">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+        <h1 class="title fade-in" id="title2">Scientific</h1>
+        <h1 class="title fade-in" id="title21">Classification</h1>
+        <br>
+        <div id='begining' class="fade-in">
+            <span id="somespan">
+        </span>
+            
+        </div>
+        
+        <div class="fade-in" id="thekindonm">
+
+        </div>
+        
+
+<br>
+<br>
+        <div class="footer fade-in" id="footerde">This website was made by Zac. <br> Website may not contain your specific creature, due to the thousands of different options, and a limited timeframe to make the website.</div>
+        <script src="js.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#title2").addClass("loaded");
+                setTimeout(function () {
+                    $("#title21").addClass("loaded");
+                }, 2000);
+                setTimeout(function () {
+                    document.getElementById('somespan').innerHTML = `                <a class="benigingclass" id="benigingclass" onclick="dafucntionofDOOM()">Begin</a>  
+`
+                
+                    $("#begining").addClass("loaded");
+                    $("#footerde").addClass("loaded");
+                }, 4000);
+                setTimeout(function () {
+                    $("#benigingclass").addClass("toflash");
+                }, 6000);
+            });
+        </script>
+        
+
+
+    </body>
+</html>
